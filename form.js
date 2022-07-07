@@ -19,6 +19,7 @@ function validateForm() {
   clearErrors();
 
   //perform validation and if validation fails, set the value of returnval to false
+  //Aise_hi
   var name = document.forms['myForm']["fname"].value;
   var letters = /^[A-Za-z]+$/;
 
